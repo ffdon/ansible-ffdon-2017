@@ -1,8 +1,8 @@
 ---
-# Playbook zur Konfiguration aller Servern von domaene-02
-# Aufruf einer einzelnen Rolle möglich. Beispiel nur fastd: "ansible-playbook domaene-02.yml --tags=fastd"
+# Playbook zur Konfiguration aller Servern von domaene-01
+# Aufruf einer einzelnen Rolle möglich. Beispiel nur fastd: "ansible-playbook domaene-01.yml --tags=fastd"
 
-- hosts: domaene-02
+- hosts: domaene-02 
   remote_user: root
   roles:
     - { role: hostname, tags: "hostname"}
@@ -19,4 +19,3 @@
     - { role: interfaces_ffms_supernodes, tags: "interfaces_ffms_supernodes"}
     - { role: ip_forwarding, tags: "ip_forwarding"}
     - { role: collectd, tags: "collectd"}
-

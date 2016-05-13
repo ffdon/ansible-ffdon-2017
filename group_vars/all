@@ -1,10 +1,17 @@
 # Globale Variablen für alle Server 
 domaenen:
-  "02":
-    name: Donauries
+  "01":
+    name: Donauries1
     community: Donau-Ries
     ffv4_network: 10.86.8.0/21
     ffv6_network: 2a03:2260:3005:100::/64
+    map_scale: 0.9
+    firmware: domaene01/
+  "02":
+    name: Donauries2
+    community: Donau-Ries
+    ffv4_network: 10.86.16.0/21
+    ffv6_network: 2a03:2260:3005:200::/64
     map_scale: 0.9
     firmware: domaene02/
 
