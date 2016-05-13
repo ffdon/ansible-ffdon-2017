@@ -1,2 +1,3 @@
 [gateways]
-greyworm-06	ansible_ssh_host=89.163.129.14
+gw02		ansible_ssh_host=88.198.184.218		# Direktanbindung FFRL
+
