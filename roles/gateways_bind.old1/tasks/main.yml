@@ -13,13 +13,8 @@
   notify:
     - restart bind9
 
-#- name: create named.conf.ffms
-#  template: src=named.conf.ffms.j2 dest=/etc/bind/named.conf.ffms
-#  notify:
-#    - restart bind9
-
-- name: create named.conf.default-zones
-  template: src=named.conf.default-zones.j2 dest=/etc/bind/named.conf.default-zones
+- name: create named.conf.ffms
+  template: src=named.conf.ffms.j2 dest=/etc/bind/named.conf.ffms
   notify:
     - restart bind9
 

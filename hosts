@@ -7,4 +7,4 @@ services    ansible_ssh_host=178.254.29.15
 gw02		ansible_ssh_host=88.198.184.218		# Direktanbindung FFRL
 
 [firmware]
-firmware	ansible_ssh_host=172.27.1.30
+#firmware	ansible_ssh_host=172.27.1.30

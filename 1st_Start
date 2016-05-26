@@ -1,0 +1,16 @@
+## README
+https://forum.freifunk.net/t/anleitung-gateway-aufsetzen-fuer-neulinge/11793
+
+Auf Heztner-Debian-Image
+- login as root, 
+- Zertifikat für Zert-Login des Ansible-Root installieren
+- python installieren
+- /etc/sysctl.d/99-hetzner.conf --> hier net.ipv4.conf.all.rp_filter=1 mit 0 abschalten, 
+   macht Ärger bei den redundanten FFRL-GRE-Tunnels, da die Antwortpakete oft auf anderen Interfaces reinkommen als die Anfragfen rausgingen
+
+
+ansible-playbook -i hosts gateways.yml --check --diff -vvvv
+ansible-playbook -i hosts gateways.yml --diff -vvvv
+ansible-playbook -i hosts gateways.yml --diff
+ansible-playbook -i hosts gateways.yml --diff --step
+

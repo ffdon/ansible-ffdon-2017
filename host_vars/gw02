@@ -53,12 +53,51 @@ ffrl_tun:
   v6_remote: 2a03:2260:0:304::1/64
 
 domaenenliste:
-   "01":
-      dhcp_start: 10.86.8.26
-      dhcp_ende: 10.86.11.254
-      server_id: 2
-   "02":
-      dhcp_start: 10.86.12.26
-      dhcp_ende: 10.86.15.254
-      server_id: 2
-
+ "01":
+   dhcp_start: 10.86.8.26
+   dhcp_ende: 10.86.11.254
+   server_id: 2
+# "02":
+#   dhcp_start: 10.86.12.25
+#   dhcp_ende: 10.86.15.254
+#   server_id: 2
+ "03":
+   dhcp_start: 10.86.16.25
+   dhcp_ende: 10.86.19.254
+   server_id: 2
+# "04":
+#   dhcp_start: 10.86.20.25
+#   dhcp_ende: 10.86.23.254
+#   server_id: 2
+ "05":
+   dhcp_start: 10.86.24.25
+   dhcp_ende: 10.86.27.254
+   server_id: 2
+# "06":
+#   dhcp_start: 10.86.28.25
+#   dhcp_ende: 10.86.31.254
+#   server_id: 2
+ "07":
+   dhcp_start: 10.86.32.25
+   dhcp_ende: 10.86.35.254
+   server_id: 2
+# "08":
+#   dhcp_start: 10.86.36.25
+#   dhcp_ende: 10.86.39.254
+#   server_id: 2
+ "09":
+   dhcp_start: 10.86.40.25
+   dhcp_ende: 10.86.43.254
+   server_id: 2
+# "10":
+#   dhcp_start: 10.86.44.25
+#   dhcp_ende: 10.86.47.254
+#   server_id: 2
+# "11":
+#   dhcp_start: 10.86.48.25
+#   dhcp_ende: 10.86.51.254
+#   server_id: 2
+# "12":
+#   dhcp_start: 10.86.52.25
+#   dhcp_ende: 10.86.53.254
+#   server_id: 2

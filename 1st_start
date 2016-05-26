@@ -1,0 +1,5 @@
+## README
+https://forum.freifunk.net/t/anleitung-gateway-aufsetzen-fuer-neulinge/11793 
+ansible-playbook -i hosts gateways.yml --check --diff -vvvv
+ansible-playbook -i hosts gateways.yml --diff -vvvv
+ansible-playbook -i hosts gateways.yml --diff
