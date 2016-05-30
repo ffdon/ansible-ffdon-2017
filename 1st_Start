@@ -14,3 +14,4 @@ ansible-playbook -i hosts gateways.yml --diff -vvvv
 ansible-playbook -i hosts gateways.yml --diff
 ansible-playbook -i hosts gateways.yml --diff --step
 
+ansible-playbook -i hosts gateways.yml --check --diff -vvvv --tags=firmware_web

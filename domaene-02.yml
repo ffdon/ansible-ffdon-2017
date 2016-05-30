@@ -2,7 +2,7 @@
 # Playbook zur Konfiguration aller Servern von domaene-02
 # Aufruf einer einzelnen Rolle möglich. Beispiel nur fastd: "ansible-playbook domaene-02.yml --tags=fastd"
 
-- hosts: domaene-02 
+- hosts: domaene-02
   remote_user: root
   roles:
     - { role: hostname, tags: "hostname"}
