@@ -7,17 +7,17 @@ view "domaene-{{domaene[0]}}" {
         };
 	include "/etc/bind/named.conf.local";
 	include "/etc/bind/named.conf.default-zones";
-	zone "ffms." {
+	zone "ffdon." {
 		type master;
-		file "/etc/bind/db.domaene-{{domaene[0]}}.ffms";
+		file "/etc/bind/db.domaene-{{domaene[0]}}.ffdon";
 	};
-	zone "servers.ffms." {
+	zone "servers.ffdon." {
 		type slave;
 		masters {
 			{{domaenen[domaene[0]].ffv4_network | ipaddr(hostvars['services'].vm_id) | ipaddr('address')}};
 		};
 	};
-	zone "services.ffms." {
+	zone "services.ffdon." {
 		type slave;
 		masters {
 			{{domaenen[domaene[0]].ffv4_network | ipaddr(hostvars['services'].vm_id) | ipaddr('address')}};

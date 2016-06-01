@@ -13,8 +13,8 @@
   notify:
     - restart bind9
 
-#- name: create named.conf.ffms
-#  template: src=named.conf.ffms.j2 dest=/etc/bind/named.conf.ffms
+#- name: create named.conf.ffdon
+#  template: src=named.conf.ffdon.j2 dest=/etc/bind/named.conf.ffdon
 #  notify:
 #    - restart bind9
 
@@ -29,7 +29,7 @@
     - restart bind9
 
 - name: create own db file for each subdomaene
-  template: src=db.ffms.j2 dest=/etc/bind/db.domaene-{{item}}.ffms
+  template: src=db.ffdon.j2 dest=/etc/bind/db.domaene-{{item}}.ffdon
   notify:
     - restart bind9
   with_items: domaenenliste
