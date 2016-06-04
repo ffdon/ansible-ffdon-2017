@@ -21,4 +21,4 @@
     - { role: gateways_bind, tags: "gateways_bind"}
     - { role: collectd, tags: "collectd"}
     - { role: set_kernel_param_maxcpus, tags: "set_kernel_param_maxcpus"}
-#    - { role: firmware_web, tags: "firmware_web"}
+    - { role: firmware_web, tags: "firmware_web"}

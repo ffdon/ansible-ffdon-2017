@@ -2,7 +2,7 @@
 
 domaenen:
    "01":
-      Name: DonauRies
+      name: DonauRies
       community: FreifunkDonauRies
       ffv4_network: 10.86.8.0/22
       ffv6_network: 2a03:2260:3005:100::/64
@@ -92,6 +92,62 @@ domaenen:
       ffv6_network: 2a03:2260:3005:1300::/64
       map_scale: 0.9
       firmware:  domaene13/
+#   "14":
+#      name: spare14
+#      community: Freifunk-Donau-Ries
+#      ffv4_network: 10.86.60.0/22
+#      ffv6_network: 2a03:2260:3005:1400::/64
+#      map_scale: 0.9
+#      firmware:  domaene14/
+   "15":
+      name: Oettingen
+      community: Freifunk-Donau-Ries
+      ffv4_network: 10.86.64.0/22
+      ffv6_network: 2a03:2260:3005:1500::/64
+      map_scale: 0.9
+      firmware:  domaene15/
+#   "16":
+#      name: spare16
+#      community: Freifunk-Donau-Ries
+#      ffv4_network: 10.86.68.0/22
+#      ffv6_network: 2a03:2260:3005:1600::/64
+#      map_scale: 0.9
+#      firmware:  domaene16/
+   "17":
+      name: Rain
+      community: Freifunk-Donau-Ries
+      ffv4_network: 10.86.72.0/22
+      ffv6_network: 2a03:2260:3005:1700::/64
+      map_scale: 0.9
+      firmware:  domaene17/
+#   "18":
+#      name: spare18
+#      community: Freifunk-Donau-Ries
+#      ffv4_network: 10.86.76.0/22
+#      ffv6_network: 2a03:2260:3005:1800::/64
+#      map_scale: 0.9
+#      firmware:  domaene18/
+   "19":
+      name: Umland
+      community: Freifunk-Donau-Ries
+      ffv4_network: 10.86.80.0/22
+      ffv6_network: 2a03:2260:3005:1900::/64
+      map_scale: 0.9
+      firmware:  domaene19/
+#   "20":
+#      name: spare20
+#      community: Freifunk-Donau-Ries
+#      ffv4_network: 10.86.84.0/22
+#      ffv6_network: 2a03:2260:3005:2000::/64
+#      map_scale: 0.9
+#      firmware:  domaene20/
+#   "21":
+#      name: spare21
+#      community: Freifunk-Donau-Ries
+#      ffv4_network: 10.86.88.0/22
+#      ffv6_network: 2a03:2260:3005:2100::/64
+#      map_scale: 0.9
+#      firmware:  domaene21/
 
 # Nummer der Routing Tabelle, die auf den Servern verwendet wird 
 routing_table: 42
