@@ -23,7 +23,7 @@
     - { role: set_kernel_param_maxcpus, tags: "set_kernel_param_maxcpus"}
     - { role: firmware_web, tags: "firmware_web"}
 #    - { role: services_interfaces, tags: "services_interfaces"}
-#    - { role: alfred_json, tags: "alfred_json"}
+    - { role: alfred_json, tags: "alfred_json"}
 #    - { role: services_ffmap_backend, tags: "services_ffmap_backend"}
 #    - { role: services_nginx, tags: "services_nginx"}
 #    - { role: services_meshviewer, tags: "services_meshviewer"}
