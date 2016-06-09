@@ -26,7 +26,7 @@
     - { role: alfred_json, tags: "alfred_json"}
     - { role: services_ffmap_backend, tags: "services_ffmap_backend"}
     - { role: services_nginx, tags: "services_nginx"}
-#    - { role: services_meshviewer, tags: "services_meshviewer"}
+    - { role: services_meshviewer, tags: "services_meshviewer"}
 #    - { role: services_node-stats, tags: "services_node-stats"}
 #    - { role: services_bind, tags: "services_bind"}
 #    - { role: services_ffapi, tags: "services_ffapi"}
