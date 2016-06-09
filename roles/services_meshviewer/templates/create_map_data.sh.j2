@@ -23,8 +23,16 @@ done
 
 # Daten der Legacy-Domäne per wget holen
 mkdir -p /var/ffmap/data_legacy /var/www/html/maps/data_legacy
-wget http://192.168.43.3/map/data/nodes.json -O /var/ffmap/data_legacy/nodes.json
-wget http://192.168.43.3/map/data//graph.json -O /var/ffmap/data_legacy/graph.json
+#############################################################################################
+### Leiche ###
+#############################################################################################
+#wget http://192.168.43.3/map/data/nodes.json -O /var/ffmap/data_legacy/nodes.json
+#wget http://192.168.43.3/map/data//graph.json -O /var/ffmap/data_legacy/graph.json
+#############################################################################################
+### Privisorium ###
+#############################################################################################
+wget http://127.0.0.1/map/data/nodes.json -O /var/ffmap/data_legacy/nodes.json
+wget http://127.0.0.1/map/data//graph.json -O /var/ffmap/data_legacy/graph.json
 mv /var/ffmap/data_legacy/* /var/www/html/maps/data_legacy
 
 # Daten mit merge_map_data.py zuammenfügen
@@ -56,10 +64,10 @@ for i in /var/www/html/maps/data?*; do
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Freifunk Münsterland - Karten</title>
+<title>Freifunk Donau-Ries - Karten</title>
 </head>
 <body>
-<h1>Freifunk Münsterland - Karten</h1>
+<h1>Freifunk Donau-Ries - Karten</h1>
 <p><a href="map/">Gesamtkarte</a></p>
 <p>
 EOF
@@ -79,8 +87,9 @@ EOF
         cat <<EOF >> /var/www/html/maps/index.html
 </p>
 <hr>
-<p><a href="http://umap.openstreetmap.fr/de/map/ffms-domanen_62931">Gebiete der Domänen</a></p>
-<p><a href="https://freifunk-muensterland.de/wiki/doku.php?id=technik:ip-aufteilung">IP-Aufteilung und Status der Domänen</a></p>
+#<p><a href="http://umap.openstreetmap.fr/de/map/ffms-domanen_62931">Gebiete der Domänen</a></p>
+<p><a href="https://umap.openstreetmap.fr/de/map/ffdonau-ries_87891">Gebiete der Domänen</a></p>
+#<p><a href="https://freifunk-muensterland.de/wiki/doku.php?id=technik:ip-aufteilung">IP-Aufteilung und Status der Domänen</a></p>
 </body>
 </html>
 EOF
