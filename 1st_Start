@@ -9,6 +9,8 @@ Auf Heztner-Debian-Image
    macht Ärger bei den redundanten FFRL-GRE-Tunnels, da die Antwortpakete oft auf anderen Interfaces reinkommen als die Anfragfen rausgingen
 
 
+ansible-playbook -i hosts gatewaysplus.yml --check --diff -vvvv
+
 ansible-playbook -i hosts gateways.yml --check --diff -vvvv
 ansible-playbook -i hosts gateways.yml --diff -vvvv
 ansible-playbook -i hosts gateways.yml --diff
