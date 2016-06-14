@@ -1,5 +1,5 @@
 - name: git für ffapi
-  git: repo=https://github.com/ffdon/services-ffdon.git dest=/usr/src/services-ffms force=yes version=master
+  git: repo=https://github.com/ffdon/services-ffdon.git dest=/usr/src/services-ffdon force=yes version=master
 
 - name: Verzeichnis für ffapi.json
   file: path=/var/www/html/freifunk state=directory mode=0755
