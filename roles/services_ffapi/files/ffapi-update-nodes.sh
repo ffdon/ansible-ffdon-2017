@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TEMPLATE=/usr/src/services-ffms/apifile/ffapi-template.json
+TEMPLATE=/usr/src/services-ffdon/apifile/ffapi-template.json
 APIFILE=/var/www/html/freifunk/ffapi.json
 NODES=/var/www/html/maps/data/nodes.json
 
