@@ -1,0 +1,15 @@
+server_besitzer: "mgk-ffdon"
+vm_id: 99
+server_id: 99
+
+bind:
+  ffdon_zone_type: master
+  ns_name: ns01
+  ffdon_for_groups:
+    - domaene-01
+    - domaene-03
+    - domaene-05
+    - domaene-07
+    - domaene-09
+    - domaene-11
+legacy_domain: yes
