@@ -1,6 +1,6 @@
 server_besitzer: "mgk-ffdon"
-vm_id: 99
-server_id: 99
+vm_id: 20
+server_id: 20
 
 bind:
   ffdon_zone_type: master
@@ -12,4 +12,8 @@ bind:
     - domaene-07
     - domaene-09
     - domaene-11
+    - domaene-13
+    - domaene-15
+    - domaene-17
+    - domaene-19
 legacy_domain: yes
