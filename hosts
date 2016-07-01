@@ -1,5 +1,5 @@
 [services]
-services      ansible_ssh_host=kd163.aufmassbuero.de
+services      ansible_ssh_host=138.201.159.231
 
 [backbone]
 
