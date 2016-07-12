@@ -57,6 +57,96 @@ ffrl_tun:
 ############################################Ändern
 domaenenliste:
  "01":
+   dhcp_start: 10.86.10.25
+   dhcp_ende: 10.86.11.254
+   server_id: 3
+# "02":
+#   dhcp_start: 10.86.14.25
+#   dhcp_ende: 10.86.15.254
+#   server_id: 3
+ "03":
+   dhcp_start: 10.86.18.25
+   dhcp_ende: 10.86.19.254
+   server_id: 3
+# "04":
+#   dhcp_start: 10.86.22.25
+#   dhcp_ende: 10.86.23.254
+#   server_id: 3
+ "05":
+   dhcp_start: 10.86.26.25
+   dhcp_ende: 10.86.27.254
+   server_id: 3
+# "06":
+#   dhcp_start: 10.86.30.25
+#   dhcp_ende: 10.86.31.254
+#   server_id: 3
+ "07":
+   dhcp_start: 10.86.34.25
+   dhcp_ende: 10.86.35.254
+   server_id: 3
+# "08":
+#   dhcp_start: 10.86.38.25
+#   dhcp_ende: 10.86.39.254
+#   server_id: 3
+ "09":
+   dhcp_start: 10.86.42.25
+   dhcp_ende: 10.86.43.254
+   server_id: 3
+# "10":
+#   dhcp_start: 10.86.46.25
+#   dhcp_ende: 10.86.47.254
+#   server_id: 3
+ "11":
+   dhcp_start: 10.86.50.25
+   dhcp_ende: 10.86.51.254
+   server_id: 3
+# "12":
+#   dhcp_start: 10.86.54.25
+#   dhcp_ende: 10.86.55.254
+#   server_id: 3
+ "13":
+   dhcp_start: 10.86.58.25
+   dhcp_ende: 10.86.59.254
+   server_id: 3
+# "14":
+#   dhcp_start: 10.86.62.25
+#   dhcp_ende: 10.86.63.254
+#   server_id: 3
+ "15":
+   dhcp_start: 10.86.66.25
+   dhcp_ende: 10.86.67.254
+   server_id: 3
+# "16":
+#   dhcp_start: 10.86.70.25
+#   dhcp_ende: 10.86.71.254
+#   server_id: 3
+ "17":
+   dhcp_start: 10.86.74.25
+   dhcp_ende: 10.86.75.254
+   server_id: 3
+# "18":
+#   dhcp_start: 10.86.78.25
+#   dhcp_ende: 10.86.79.254
+#   server_id: 3
+ "19":
+   dhcp_start: 10.86.82.25
+   dhcp_ende: 10.86.83.254
+   server_id: 3
+# "20":
+#   dhcp_start: 10.86.86.25
+#   dhcp_ende: 10.86.87.254
+#   server_id: 3
+# "21":
+#   dhcp_start: 10.86.90.25
+#   dhcp_ende: 10.86.92.254
+#   server_id: 3
+
+
+
+
+
+ 
+ "01":
    dhcp_start: 10.86.8.26
    dhcp_ende: 10.86.11.254
    server_id: 2
@@ -138,5 +228,5 @@ domaenenliste:
 #   server_id: 2
 # "21":
 #   dhcp_start: 10.86.88.25
-#   dhcp_ende: 10.86.92.254
+#   dhcp_ende: 10.86.91.254
 #   server_id: 2
