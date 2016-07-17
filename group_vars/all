@@ -2,22 +2,22 @@
 
 domaenen:
    "01":
-      name: DonauRies
-      community: FreifunkDonauRies
+      name: TEST
+      community: Freifunk-Donau-Ries
       ffv4_network: 10.86.8.0/22
       ffv6_network: 2a03:2260:3005:100::/64
       map_scale: 0.9
       firmware:  domaene01/
 #   "02":
 #      name: spare02
-#      community: FreifunkDonauRies
+#      community: Freifunk-Donau-Ries
 #      ffv4_network: 10.86.12.0/22
 #      ffv6_network: 2a03:2260:3005:200::/64
 #      map_scale: 0.9
 #      firmware:  domaene02/
    "03":
       name: Donauwoerth
-      community: FreifunkDonauRies
+      community: Freifunk-Donau-Ries
       ffv4_network: 10.86.16.0/22
       ffv6_network: 2a03:2260:3005:300::/64
       map_scale: 0.9
@@ -31,63 +31,63 @@ domaenen:
 #      firmware:  domaene04/
    "05":
       name: Noerdlingen
-      community: FreifunkDonauRies
+      community: Freifunk-Donau-Ries
       ffv4_network: 10.86.24.0/22
       ffv6_network: 2a03:2260:3005:500::/64
       map_scale: 0.9
       firmware:  domaene05/
 #   "06":
 #      name: spare06
-#      community: FreifunkDonauRies
+#      community: Freifunk-Donau-Ries
 #      ffv4_network: 10.86.28.0/22
 #      ffv6_network: 2a03:2260:3005:600::/64
 #      map_scale: 0.9
 #      firmware:  domaene06/
    "07":
       name: Wemding
-      community: FreifunkDonauRies
+      community: Freifunk-Donau-Ries
       ffv4_network: 10.86.32.0/22
       ffv6_network: 2a03:2260:3005:700::/64
       map_scale: 0.9
       firmware:  domaene07/
 #   "08":
 #      name: spare08
-#      community: FreifunkDonauRies
+#      community: Freifunk-Donau-Ries
 #      ffv4_network: 10.86.36.0/22
 #      ffv6_network: 2a03:2260:3005:800::/64
 #      map_scale: 0.9
 #      firmware:  domaene08/
    "09":
       name: Baeumenheim
-      community: FreifunkDonauRies
+      community: Freifunk-Donau-Ries
       ffv4_network: 10.86.40.0/22
       ffv6_network: 2a03:2260:3005:900::/64
       map_scale: 0.9
       firmware:  domaene09/
 #   "10":
 #      name: spare10
-#      community: FreifunkDonauRies
+#      community: Freifunk-Donau-Ries
 #      ffv4_network: 10.86.44.0/22
 #      ffv6_network: 2a03:2260:3005:1000::/64
 #      map_scale: 0.9
 #      firmware:  domaene10/
    "11":
       name: Monheim
-      community: FreifunkDonauRies
+      community: Freifunk-Donau-Ries
       ffv4_network: 10.86.48.0/22
       ffv6_network: 2a03:2260:3005:1100::/64
       map_scale: 0.9 
       firmware:  domaene11/
 #   "12":
-#      name: spare
-#      community: FreifunkDonauRies
+#      name: spare12
+#      community: Freifunk-Donau-Ries
 #      ffv4_network: 10.86.52.0/22
 #      ffv6_network: 2a03:2260:3005:1200::/64
 #      map_scale: 0.9
 #      firmware:  domaene12/
    "13":
       name: Harburg
-      community: FreifunkDonauRies
+      community: Freifunk-Donau-Ries
       ffv4_network: 10.86.56.0/22
       ffv6_network: 2a03:2260:3005:1300::/64
       map_scale: 0.9
