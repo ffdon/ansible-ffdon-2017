@@ -21,23 +21,9 @@ for i in /proc/sys/net/ipv4/conf/bat*; do
     cp /var/ffmap/data${num}/graph.json /var/www/html/maps/data${num}/graph.json
 done
 
-# Daten der Legacy-Domäne per wget holen
-mkdir -p /var/ffmap/data_legacy /var/www/html/maps/data_legacy
-#############################################################################################
-### Leiche ###
-#############################################################################################
-#wget http://192.168.43.3/map/data/nodes.json -O /var/ffmap/data_legacy/nodes.json
-#wget http://192.168.43.3/map/data//graph.json -O /var/ffmap/data_legacy/graph.json
-#############################################################################################
-### Privisorium ###
-#############################################################################################
-wget http://127.0.0.1/map/data/nodes.json -O /var/ffmap/data_legacy/nodes.json
-wget http://127.0.0.1/map/data//graph.json -O /var/ffmap/data_legacy/graph.json
-mv /var/ffmap/data_legacy/* /var/www/html/maps/data_legacy
-
 # Daten mit merge_map_data.py zuammenfügen
 mkdir -p /var/www/html/maps/data
-/usr/src/tools/merge_map_data.py -o /var/www/html/maps/data /var/www/html/maps/data?? /var/www/html/maps/data_legacy
+/usr/src/tools/merge_map_data.py -o /var/www/html/maps/data /var/www/html/maps/data??
 
 for com in "${!members[@]}"; do
     dir=/var/www/html/maps/data_${com//" "/_}
