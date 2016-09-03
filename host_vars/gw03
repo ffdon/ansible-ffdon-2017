@@ -58,10 +58,10 @@ domaenenliste:
 #   dhcp_start: 10.86.14.25
 #   dhcp_ende: 10.86.15.254
 #   server_id: 3
-# "03":
-#   dhcp_start: 10.86.18.25
-#   dhcp_ende: 10.86.19.254
-#   server_id: 3
+ "03":
+   dhcp_start: 10.86.18.25
+   dhcp_ende: 10.86.19.254
+   server_id: 3
 # "04":
 #   dhcp_start: 10.86.22.25
 #   dhcp_ende: 10.86.23.254
