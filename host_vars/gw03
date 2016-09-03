@@ -66,18 +66,18 @@ domaenenliste:
 #   dhcp_start: 10.86.22.25
 #   dhcp_ende: 10.86.23.254
 #   server_id: 3
-# "05":
-#   dhcp_start: 10.86.26.25
-#   dhcp_ende: 10.86.27.254
-#   server_id: 3
+ "05":
+   dhcp_start: 10.86.26.25
+   dhcp_ende: 10.86.27.254
+   server_id: 3
 # "06":
 #   dhcp_start: 10.86.30.25
 #   dhcp_ende: 10.86.31.254
 #   server_id: 3
-# "07":
-#   dhcp_start: 10.86.34.25
-#   dhcp_ende: 10.86.35.254
-#   server_id: 3
+ "07":
+   dhcp_start: 10.86.34.25
+   dhcp_ende: 10.86.35.254
+   server_id: 3
 # "08":
 #   dhcp_start: 10.86.38.25
 #   dhcp_ende: 10.86.39.254
