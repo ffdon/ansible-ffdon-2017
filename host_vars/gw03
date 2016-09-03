@@ -10,7 +10,7 @@ server_besitzer: "infodatacom"
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
 # Nur für Backbone-Server notwendig  
 ############################################Ändern
-server_ipv4_nat: 185.66.193.91/32
+server_ipv4_nat: 185.66.193.90/32
     
 # GRE-Einstellungen zum Freifunk Rheinland
 # Bei v6 ist die ...::1 remote und die ...::2 lokal
