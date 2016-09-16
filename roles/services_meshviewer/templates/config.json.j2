@@ -33,6 +33,8 @@
 {% for domaene in domaenen|dictsort %}
     { "site": "ffmsd{{domaene[0]}}", "name": "Domäne {{domaene[0]}} - {{domaene[1].name}}" },
 {% endfor %}
+    { "site": "ffmstd", "name": "Testdomäne" },		
+    { "site": "ffms", "name": "Legacy Domäne" }
   ],
   "nodeInfos": [
     { "name": "Clientstatistik",
