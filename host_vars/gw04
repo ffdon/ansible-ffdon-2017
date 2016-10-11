@@ -114,18 +114,18 @@ domaenenliste:
 #   dhcp_start: 10.86.70.25
 #   dhcp_ende: 10.86.71.254
 #   server_id: 4
-# "17":
-#   dhcp_start: 10.86.74.25
-#   dhcp_ende: 10.86.75.254
-#   server_id: 4
+ "17":
+   dhcp_start: 10.86.74.25
+   dhcp_ende: 10.86.75.254
+   server_id: 4
 # "18":
 #   dhcp_start: 10.86.78.25
 #   dhcp_ende: 10.86.79.254
 #   server_id: 4
-# "19":
-#   dhcp_start: 10.86.82.25
-#   dhcp_ende: 10.86.83.254
-#   server_id: 4
+ "19":
+   dhcp_start: 10.86.82.25
+   dhcp_ende: 10.86.83.254
+   server_id: 4
 # "20":
 #   dhcp_start: 10.86.86.25
 #   dhcp_ende: 10.86.87.254
