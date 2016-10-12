@@ -141,13 +141,13 @@ domaenen:
 #      ffv6_network: 2a03:2260:3005:2000::/64
 #      map_scale: 0.9
 #      firmware:  domaene20/
-#   "21":
-#      name: spare21
-#      community: Freifunk-Donau-Ries
-#      ffv4_network: 10.86.88.0/22
-#      ffv6_network: 2a03:2260:3005:2100::/64
-#      map_scale: 0.9
-#      firmware:  domaene21/
+   "21":
+      name: spare21
+      community: Freifunk-Donau-Ries
+      ffv4_network: 10.86.88.0/22
+      ffv6_network: 2a03:2260:3005:2100::/64
+      map_scale: 0.9
+      firmware:  domaene21/
 
 # Nummer der Routing Tabelle, die auf den Servern verwendet wird 
 routing_table: 42
