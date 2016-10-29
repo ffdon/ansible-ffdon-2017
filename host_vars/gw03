@@ -50,10 +50,10 @@ ffrl_tun:
 
 ############################################Ändern
 domaenenliste:
-# "01":
-#   dhcp_start: 10.86.10.25
-#   dhcp_ende: 10.86.11.254
-#   server_id: 3
+ "01":
+   dhcp_start: 10.86.10.25
+   dhcp_ende: 10.86.11.254
+   server_id: 3
 # "02":
 #   dhcp_start: 10.86.14.25
 #   dhcp_ende: 10.86.15.254
@@ -82,10 +82,10 @@ domaenenliste:
 #   dhcp_start: 10.86.38.25
 #   dhcp_ende: 10.86.39.254
 #   server_id: 3
- "09":
-   dhcp_start: 10.86.42.25
-   dhcp_ende: 10.86.43.254
-   server_id: 3
+# "09":
+#   dhcp_start: 10.86.42.25
+#   dhcp_ende: 10.86.43.254
+#   server_id: 3
 # "10":
 #   dhcp_start: 10.86.46.25
 #   dhcp_ende: 10.86.47.254
@@ -130,7 +130,7 @@ domaenenliste:
 #   dhcp_start: 10.86.86.25
 #   dhcp_ende: 10.86.87.254
 #   server_id: 3
- "21":
-   dhcp_start: 10.86.90.25
-   dhcp_ende: 10.86.91.254
-   server_id: 3
+# "21":
+#   dhcp_start: 10.86.90.25
+#   dhcp_ende: 10.86.91.254
+#   server_id: 3
