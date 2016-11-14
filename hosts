@@ -5,7 +5,6 @@ services      ansible_ssh_host=138.201.159.231
 
 [gateways]
 gw02		ansible_ssh_host=88.198.184.218		# Direktanbindung FFRL
-gw03		ansible_ssh_host=178.254.21.149		# Direktanbindung FFRL
 gw04    ansible_ssh_host=88.99.14.255     # Direktanbindung FFRL
 
 
