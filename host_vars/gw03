@@ -11,42 +11,6 @@ server_besitzer: "infodatacom"
 # Nur für Backbone-Server notwendig  
 ############################################Ändern
 server_ipv4_nat: 185.66.193.90/32
-    
-# GRE-Einstellungen zum Freifunk Rheinland
-# Bei v6 ist die ...::1 remote und die ...::2 lokal
-
-############################################Ändern
-#####################evtl ipv6 ueberarbeiten
-#### Namen:
-#### ber1 - 185.66.195.0 - bb-a.ak.ber
-#### ber2 - 185.66.195.1 - bb-b.ak.ber
-#### dus1 - 185.66.193.0 - bb-a.ix.dus
-#### dus2 - 185.66.193.1 - bb-b.ix.dus
-ffrl_tun:
-- name: ber1
-  gre_target: 185.66.195.0
-  v4_local: 100.64.4.197/31
-  v4_remote: 100.64.4.196/31
-  v6_local: 2a03:2260:0:a1::2/64
-  v6_remote: 2a03:2260:0:a1::1/64
-- name: ber2
-  gre_target: 185.66.195.1
-  v4_local: 100.64.4.201/31
-  v4_remote: 100.64.4.200/31
-  v6_local: 2a03:2260:0:a3::2/64
-  v6_remote: 2a03:2260:0:a3::1/64
-- name: dus1
-  gre_target: 185.66.193.0
-  v4_local: 100.64.4.199/31
-  v4_remote: 100.64.4.198/31
-  v6_local: 2a03:2260:0:a2::2/64
-  v6_remote: 2a03:2260:0:a2::1/64
-- name: dus2
-  gre_target: 185.66.193.1
-  v4_local: 100.64.4.203/31
-  v4_remote: 100.64.4.202/31
-  v6_local: 2a03:2260:0:a4::2/64
-  v6_remote: 2a03:2260:0:a4::1/64
 
 ############################################Ändern
 domaenenliste:
