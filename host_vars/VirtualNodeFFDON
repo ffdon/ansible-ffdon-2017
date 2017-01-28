@@ -1,0 +1,15 @@
+# Variablen für Gateway-Server mit Direktanbindung zum FFRL parad0x.gw.freifunk-muenster.de
+# Die Server-IP-Adresse wird durch von ansible bereitgestellte Variablen abgerufen (ansible_eth0.ipv4...)
+
+# ID des Servers. 
+# Hieraus wird die IP-Adresse innerhalb des Freifunk Netzwerkes gebildet.
+vm_id: 24
+server_id: 24
+server_besitzer: "mgk"
+
+############################################Ändern
+domaenenliste:
+ "03":
+   dhcp_start: 10.86.18.25
+   dhcp_ende: 10.86.19.254
+   server_id: 24
