@@ -1,6 +1,9 @@
 [services]
 services      ansible_ssh_host=138.201.159.231
 
+[monitoring]
+grafana       ansible_ssh_host=10.86.8.21
+
 [backbone]
 
 [gateways]
