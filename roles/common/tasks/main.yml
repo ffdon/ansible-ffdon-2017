@@ -28,42 +28,42 @@
     - "deb http://security.debian.org/ {{ ansible_distribution_release }}/updates main"
   when: ansible_distribution == "Debian"
 
-- name: install common packages
-  apt:
-    pkg: "{{ item }}"
-    update_cache: yes
-    state: installed
-  with_items:
-    - vim
-    - wget
-    - vnstat
-    - tmux
-    - pastebinit
-    - htop
-    - jnettop
-    - iotop
-    - tcpdump
-    - screen
-    - strace
-    - socat
-    - dnsutils
-    - host
-    - apt-transport-https
-    - tshark
-    - dwdiff
-    - molly-guard
-    - git
-    - iperf
-    - chkconfig
-    - logwatch
-
-- name: uninstall unneeded packages
-  apt:
-    pkg: "{{ item }}"
-    update_cache: yes
-    state: absent
-  with_items:
-    - rpcbind
+#- name: install common packages
+#  apt:
+#    pkg: "{{ item }}"
+#    update_cache: yes
+#    state: installed
+#  with_items:
+#    - vim
+#    - wget
+#    - vnstat
+#    - tmux
+#    - pastebinit
+#    - htop
+#    - jnettop
+#    - iotop
+#    - tcpdump
+#    - screen
+#    - strace
+#    - socat
+#    - dnsutils
+#    - host
+#    - apt-transport-https
+#    - tshark
+#    - dwdiff
+#    - molly-guard
+#    - git
+#    - iperf
+#    - chkconfig
+#    - logwatch
+#
+#- name: uninstall unneeded packages
+#  apt:
+#    pkg: "{{ item }}"
+#    update_cache: yes
+#    state: absent
+#  with_items:
+#    - rpcbind
 
 - name: add sshkeys for server
   authorized_key: 

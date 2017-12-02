@@ -3,16 +3,16 @@
 
 # ID des Servers. 
 # Hieraus wird die IP-Adresse innerhalb des Freifunk Netzwerkes gebildet.
-vm_id: 4
-server_id: 4
+vm_id: 5
+server_id: 5
 server_besitzer: "Eva Lettenbauer, Freifunk-Donau-Ries e.V."
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
 # Nur für Backbone-Server notwendig  
 ############################################Ändern
-#server_ipv4_nat: 185.66.193.90/32
+server_ipv4_nat: 185.66.193.90/32
 #### UNGUELTIGER DUMMY
-server_ipv4_nat: 185.66.193.111/32    
+#server_ipv4_nat: 185.66.193.111/32    
 # GRE-Einstellungen zum Freifunk Rheinland
 # Bei v6 ist die ...::1 remote und die ...::2 lokal
 
@@ -26,112 +26,124 @@ server_ipv4_nat: 185.66.193.111/32
 ffrl_tun:
 - name: ber_a
   gre_target: 185.66.195.0
-  v4_local: 100.64.4.197/31
-  v4_remote: 100.64.4.196/31
-  v6_local: 2a03:2260:0:a1::2/64
-  v6_remote: 2a03:2260:0:a1::1/64
+  v4_local: 100.64.9.111/31
+  v4_remote: 100.64.9.110/31
+  v6_local: 2a03:2260:0:4cc::2/64
+  v6_remote: 2a03:2260:0:4cc::1/64
+- name: fra_a
+  gre_target: 185.66.194.0
+  v4_local: 100.64.9.113/31
+  v4_remote: 100.64.9.112/31
+  v6_local: 2a03:2260:0:4cd::2/64
+  v6_remote: 2a03:2260:0:4cd::1/64
 - name: dus_a
   gre_target: 185.66.193.0
-  v4_local: 100.64.4.199/31
-  v4_remote: 100.64.4.198/31
-  v6_local: 2a03:2260:0:a2::2/64
-  v6_remote: 2a03:2260:0:a2::1/64
+  v4_local: 100.64.9.115/31
+  v4_remote: 100.64.9.114/31
+  v6_local: 2a03:2260:0:4ce::2/64
+  v6_remote: 2a03:2260:0:4ce::1/64
 - name: ber_b
   gre_target: 185.66.195.1
-  v4_local: 100.64.4.201/31
-  v4_remote: 100.64.4.200/31
-  v6_local: 2a03:2260:0:a3::2/64
-  v6_remote: 2a03:2260:0:a3::1/64
+  v4_local: 100.64.9.117/31
+  v4_remote: 100.64.9.116/31
+  v6_local: 2a03:2260:0:4cf::2/64
+  v6_remote: 2a03:2260:0:4cf::1/64
+- name: fra_b
+  gre_target: 185.66.194.1
+  v4_local: 100.64.9.119/31
+  v4_remote: 100.64.9.118/31
+  v6_local: 2a03:2260:0:4d0::2/64
+  v6_remote: 2a03:2260:0:4d0::1/64
 - name: dus_b
   gre_target: 185.66.193.1
-  v4_local: 100.64.4.203/31
-  v4_remote: 100.64.4.202/31
-  v6_local: 2a03:2260:0:a4::2/64
-  v6_remote: 2a03:2260:0:a4::1/64
+  v4_local: 100.64.9.121/31
+  v4_remote: 100.64.9.120/31
+  v6_local: 2a03:2260:0:4d1::2/64
+  v6_remote: 2a03:2260:0:4d1::1/64
 
 ############################################Ändern
 domaenenliste:
  "01":
    dhcp_start: 10.86.10.25
    dhcp_ende: 10.86.11.254
-   server_id: 4
+   server_id: 5
 # "02":
 #   dhcp_start: 10.86.14.25
 #   dhcp_ende: 10.86.15.254
-#   server_id: 4
-# "03":
-#   dhcp_start: 10.86.18.25
-#   dhcp_ende: 10.86.19.254
-#   server_id: 4
+#   server_id: 5
+ "03":
+   dhcp_start: 10.86.18.25
+   dhcp_ende: 10.86.19.254
+   server_id: 5
 # "04":
 #   dhcp_start: 10.86.22.25
 #   dhcp_ende: 10.86.23.254
-#   server_id: 4
-# "05":
-#   dhcp_start: 10.86.26.25
-#   dhcp_ende: 10.86.27.254
-#   server_id: 4
+#   server_id: 5
+ "05":
+   dhcp_start: 10.86.26.25
+   dhcp_ende: 10.86.27.254
+   server_id: 5
 # "06":
 #   dhcp_start: 10.86.30.25
 #   dhcp_ende: 10.86.31.254
-#   server_id: 4
-# "07":
-#   dhcp_start: 10.86.34.25
-#   dhcp_ende: 10.86.35.254
-#   server_id: 4
+#   server_id: 5
+ "07":
+   dhcp_start: 10.86.34.25
+   dhcp_ende: 10.86.35.254
+   server_id: 5
 # "08":
 #   dhcp_start: 10.86.38.25
 #   dhcp_ende: 10.86.39.254
-#   server_id: 4
-# "09":
-#   dhcp_start: 10.86.42.25
-#   dhcp_ende: 10.86.43.254
-#   server_id: 4
+#   server_id: 5
+ "09":
+   dhcp_start: 10.86.42.25
+   dhcp_ende: 10.86.43.254
+   server_id: 5
 # "10":
 #   dhcp_start: 10.86.46.25
 #   dhcp_ende: 10.86.47.254
-#   server_id: 4
-# "11":
-#   dhcp_start: 10.86.50.25
-#   dhcp_ende: 10.86.51.254
-#   server_id: 4
+#   server_id: 5
+ "11":
+   dhcp_start: 10.86.50.25
+   dhcp_ende: 10.86.51.254
+   server_id: 5
 # "12":
 #   dhcp_start: 10.86.54.25
 #   dhcp_ende: 10.86.55.254
-#   server_id: 4
-# "13":
-#   dhcp_start: 10.86.58.25
-#   dhcp_ende: 10.86.59.254
-#   server_id: 4
+#   server_id: 5
+ "13":
+   dhcp_start: 10.86.58.25
+   dhcp_ende: 10.86.59.254
+   server_id: 5
 # "14":
 #   dhcp_start: 10.86.62.25
 #   dhcp_ende: 10.86.63.254
-#   server_id: 4
-# "15":
-#   dhcp_start: 10.86.66.25
-#   dhcp_ende: 10.86.67.254
-#   server_id: 4
+#   server_id: 5
+ "15":
+   dhcp_start: 10.86.66.25
+   dhcp_ende: 10.86.67.254
+   server_id: 5
 # "16":
 #   dhcp_start: 10.86.70.25
 #   dhcp_ende: 10.86.71.254
-#   server_id: 4
-# "17":
-#   dhcp_start: 10.86.74.25
-#   dhcp_ende: 10.86.75.254
-#   server_id: 4
+#   server_id: 5
+ "17":
+   dhcp_start: 10.86.74.25
+   dhcp_ende: 10.86.75.254
+   server_id: 5
 # "18":
 #   dhcp_start: 10.86.78.25
 #   dhcp_ende: 10.86.79.254
-#   server_id: 4
-# "19":
-#   dhcp_start: 10.86.82.25
-#   dhcp_ende: 10.86.83.254
-#   server_id: 4
+#   server_id: 5
+ "19":
+   dhcp_start: 10.86.82.25
+   dhcp_ende: 10.86.83.254
+   server_id: 5
 # "20":
 #   dhcp_start: 10.86.86.25
 #   dhcp_ende: 10.86.87.254
-#   server_id: 4
+#   server_id: 5
 # "21":
 #   dhcp_start: 10.86.90.25
 #   dhcp_ende: 10.86.91.254
-#   server_id: 4
+#   server_id: 5

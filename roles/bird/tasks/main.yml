@@ -6,14 +6,14 @@
          repo: "deb http://bird.network.cz/debian/ jessie main"
          state: present
 
- - name: Bird installieren
-   apt:
-         pkg: "{{item}}"
-         update_cache: yes
-         state: installed
-   with_items:
-         - bird
-         - bird6
+# - name: Bird installieren
+#   apt:
+#         pkg: "{{item}}"
+#         update_cache: yes
+#         state: installed
+#   with_items:
+#         - bird
+#         - bird6
 
  - name: bird automatisch starten
    service: name=bird enabled=yes
