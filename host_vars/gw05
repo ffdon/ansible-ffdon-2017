@@ -146,4 +146,4 @@ domaenenliste:
 # "21":
 #   dhcp_start: 10.86.90.25
 #   dhcp_ende: 10.86.91.254
-#   server_id: 5
+#   server_id: 5 
