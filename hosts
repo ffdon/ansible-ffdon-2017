@@ -8,8 +8,7 @@ grafana       ansible_ssh_host=10.86.8.21
 
 [gateways]
 gw02		ansible_ssh_host=88.198.184.218   # Direktanbindung FFRL
-gw04            ansible_ssh_host=88.99.14.255     # Direktanbindung FFRL
-gw05            ansible_ssh_host=94.130.73.133    # 
+gw05    ansible_ssh_host=94.130.73.133    # Direktanbindung FFRL
 
 [gatewaysplus]
 
