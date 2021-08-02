@@ -5,7 +5,7 @@
 # Hieraus wird die IP-Adresse innerhalb des Freifunk Netzwerkes gebildet.
 vm_id: 2
 server_id: 2
-server_besitzer: "Eva Lettenbauer, Freifunk-Donau-Ries e.V."
+server_besitzer: "Ulrich Berens, Freifunk-Donau-Ries e.V."
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
 # Nur für Backbone-Server notwendig  
